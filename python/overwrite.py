@@ -7,6 +7,8 @@ class Persona(object):
         self.edad = edad
         
     def mostrarNombre(self):
+        print(f"Persona es {self.nombre}.")
+    def mostrarNombre(self):
         print(f"El nombre de la Persona es {self.nombre}.")
 class Clase():
     clase = "DAM"
